@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #edeff0;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+form {
+  width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0 5px 5px -2px rgba(0,0,0,0.5);
+  border: 1px solid black;
+  border-radius: 5px;
+  /*line-height: 1.25em;*/
+}
+
+.formBox {
+  margin-left: 15px;
+}
+
+.genderRadio {
+  height: 16px;
+}
+
+.formBox label, .formBox p {
+
+  margin: 15px 0 3px 0;
+}
+
+label[for="firstName"],label[for="lastName"],label[for="gender"],label[for="sports"] {
+  font-weight: 700;
+  /*line-height: 1.5em;*/
+  display: block;
+}
+
+
+
+input[type="text"] {
+  height: 18px;
+  padding-left: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+
+input[type="radio"] + label {
+  font-size: .85em;
+  padding-left: 8px;
+
+}
+
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+/*input[value="female"] {
+  margin-bottom: 10px;
+}*/
+
+select {
+  /*margin-bottom: 10px;*/
+  font-size: .75em;
+}
+
+.toppings p {
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+#pizzaChecks label {
+  padding-left: 5px;
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+
+
+input[type="submit"] {
+  text-align: center;
+  width: 100px;
+  height: 2em;
+  border: none;
+  margin: 20px 0 10px 0;
+  background-color: #1F44FF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 100ms;
+  letter-spacing: 2px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #13B5FF;
+}
+
+.toppings input:hover + label, .toppings label:hover {
+  text-decoration: underline;
+
+}
+
+.toppings label {
+  cursor: pointer;
+}

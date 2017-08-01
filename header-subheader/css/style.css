@@ -1,0 +1,57 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #edeff0;
+  font-family: 'Lato', sans-serif;
+}
+.main-content {
+  background-color: white;
+  margin: 20px auto;
+  width: 40%;
+  padding: 20px;
+
+}
+img {
+  height: 80px;
+  width: 100px;
+  float: right;
+  margin: 0 20px 5px 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 1.75em;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+h2 {
+  font-weight:400;
+  font-style: italic;
+  font-size: 1.45em;
+  margin: 15px 0;
+}
+
+h3 {
+  font-size: 1.15em;
+  margin: 10px 0;
+}
+
+#ingredients {
+  border-top: 1px solid black;
+
+}
+
+#ingredients ul, #instructions ol {
+  padding-left: 30px;
+}
+
+
+li {
+  line-height: 1.5em;
+
+}

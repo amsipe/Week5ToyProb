@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+#content-full {
+
+  margin-left: 20px;
+}
+
+#sort-list li > span {
+  color: red;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 30px;
+  margin-top: 15px;
+}
