@@ -76,6 +76,7 @@ function createItem(cur){
   listText = document.createTextNode(cur[0] + " ");
   listSpan = document.createElement('span');
   listSpanText = document.createTextNode(cur[1]);
+  //append the child elements to the parent
   listSpan.appendChild(listSpanText);
   listItem.appendChild(listText);
   listItem.appendChild(listSpan);

@@ -13,13 +13,13 @@ var badPineapple = function(e) {
 }
 
 var toppings = document.querySelectorAll('.toppings label');
-console.log(toppings);
 //loop through all available topping labels
 toppings.forEach(function (c) {
  var forBox = c.getAttribute('for');
+ //listen for clicks on toppings and add/remove checked attr
  c.addEventListener('click', function (e) {
+
    var checkBox = document.querySelector('input[name='+forBox+']');
-   console.log(checkBox);
    if(checkBox.getAttribute("checked")) {
      checkBox.removeAttribute("checked");
    } else {
